@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table2</title>
+</head>
+<body>
+<table border="1", cellpadding="2", cellspacing="2" width="50%">
+    <tr>
+        <th>Лейбл</th>
+        <th>Поле ввода</th>
+    </tr>
+    <tr>
+        <td>Скрытое поле</td>
+        <td>
+            <form>
+                <input type="hidden" name="hidden field">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Имя</td>
+        <td>
+            <form>
+                <input type="text" name="Name">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Фамилия</td>
+        <td>
+            <form>
+                <input type="text" name="surname">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>О себе</td>
+        <td>
+            <form>
+            <textarea rows="3" placeholder="About yourself"></textarea>
+        </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Город</td>
+        <td>
+            <select>
+                <option>Харьков</option>
+                <option>Киев</option>
+                <option>Львов</option>
+                <option>Одесса</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Пол</td>
+        <td>
+            <form>
+                <label>Женский<input type="radio" name="sex"></label>
+                <label>Мужской<input type="radio" name="sex"></label>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Мне есть 12 лет</td>
+        <td>
+            <form>
+                <input type="checkbox" name="select">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Фото</td>
+        <td>
+            <form>
+                <input type="image" name="file" value="Файл не выбран">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <form>
+                <input type="submit" name="submit" value="Сохранить">
+            </form>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
